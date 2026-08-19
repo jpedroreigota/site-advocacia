@@ -183,11 +183,13 @@ nav.scrolled {
     color: var(--ink);
 }
 .hero-subtitle {
-    font-size: 13px;
+    font-size: 14px;
     line-height: 1.8;
     color: var(--ink);
+    font-weight: 400;
     max-width: 480px;
     margin-bottom: 52px;
+    text-shadow: 0 1px 8px rgba(245, 240, 232, 0.8);
 }
 
 /* SECTION COMMON */
