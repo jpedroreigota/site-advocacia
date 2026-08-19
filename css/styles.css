@@ -107,7 +107,7 @@ nav.scrolled {
     min-height: 100vh;
     display: flex;
     align-items: flex-end;
-    padding: 0 60px 30vh;
+    padding: 0 60px clamp(80px, 18vh, 220px);
     position: relative;
     overflow: hidden;
     isolation: isolate;
@@ -117,7 +117,7 @@ nav.scrolled {
     position: absolute;
     top: 84px;
     right: 0;
-    width: 58%;
+    width: clamp(480px, 58vw, 900px);
     height: calc(100vh - 84px);
     z-index: -1;
     overflow: hidden;
@@ -185,7 +185,7 @@ nav.scrolled {
 .hero-subtitle {
     font-size: 13px;
     line-height: 1.8;
-    color: var(--ink-soft);
+    color: var(--ink);
     max-width: 480px;
     margin-bottom: 52px;
 }
